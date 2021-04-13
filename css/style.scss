@@ -1,0 +1,58 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+form {
+  margin: 8% auto;
+  border: 5px solid rgb(59, 77, 59);
+  width: 100% - 70%;
+  padding: $px20;
+}
+
+h1 {
+  text-align: center;
+  color: $color;
+  margin-bottom: $px20;
+}
+
+.icon {
+  font-size: 110px;
+  @include flexCenter(center);
+  color: $buttonPicture;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  border: 1px solid $color;
+  color: black;
+}
+
+.container {
+  padding: 16px 0;
+  text-align: center;
+}
+
+button {
+  background: $buttonPicture;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 10px $px20;
+  color: white;
+  margin-top: $px20;
+  font-size: 20px;
+  &:hover {
+    background: $color;
+  }
+}

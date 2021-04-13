@@ -1,0 +1,64 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+form {
+  margin: 8% auto;
+  border: 5px solid #3b4d3b;
+  width: 30%;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3b4d3b;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #40af65;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  border: 1px solid #3b4d3b;
+  color: black;
+}
+
+.container {
+  padding: 16px 0;
+  text-align: center;
+}
+
+button {
+  background: #40af65;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #3b4d3b;
+}
+/*# sourceMappingURL=style.css.map */

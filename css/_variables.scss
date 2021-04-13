@@ -1,0 +1,8 @@
+$buttonPicture: rgb(64, 175, 101);
+$color: rgb(59, 77, 59);
+$px20: 20px;
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: $direction;
+}
